@@ -1,0 +1,126 @@
+
+@import url(../CSS/about.css);
+@import url(../CSS/info.css);
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    display: grid;
+    height: 100%;
+}
+/* ---------Navigation--------------------*/
+nav {
+
+    display: flex;
+    justify-content: space-between;
+    background-color:black;
+    height: 5em;
+    
+    
+}
+.Logo {
+    font-size: large;
+    font-style: oblique;
+    color: white;
+}
+
+.nav-items 
+    { display: flex;
+    border: 1px black solid;
+    font-style: italic;
+    margin: 10px;
+    padding: 10px;
+}
+
+.letters {
+    color: whitesmoke;
+    font-size: medium;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 10px;
+    
+    
+}
+
+/*---------------------------BANNER-----------------------------*/
+.Banner {
+ height: 20em;
+ background-color: aliceblue;
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ align-items: center;
+background-image: url(../Images/italy.jpg);
+background-size: cover;
+}
+
+.Number {
+    font-size: xx-large;
+    color: black;
+    font-style: oblique;
+
+    
+}
+
+.BlogPosts {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: black;
+
+}
+
+.blog-items {
+    width:300px;
+    margin: 10px;
+    background-color:  white;
+    border-radius: 10px;
+    
+    
+    
+}
+
+.blog-items img {
+    width: 300px;
+    
+    
+    
+}
+
+.Footer { 
+    display: flex;
+    justify-content: right;
+    background-color:black;
+  height: 2em;
+ 
+}
+
+.foot {
+    color: bisque;
+}
+
+.foot img {
+    width: 20px;
+    height: 20px;
+}
+
+@media screen and (min-width: 576px) {
+    body { width: 100%;}
+    
+}
+@media screen and (min-width: 700px) {
+    body { width: 100%;}
+    
+}
+
+@media screen and (min-width: 900px) {
+    body { width: 100%;}
+    
+}
+
+@media screen and (min-width: 1200px) {
+    body { width: 100%;}
+    
+}

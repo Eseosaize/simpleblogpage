@@ -1,0 +1,114 @@
+.block {
+    display: grid;
+    width: 100%;
+   border: 1px black solid;
+   padding: 2px;
+}
+
+nav {
+    display: flex;
+    justify-content: end;
+    background-color: palevioletred;
+    
+    
+}
+
+.navitems 
+    { display: flex;
+    font-style: italic;
+    margin: 10px;
+    padding: 2px;
+    }
+
+    .letter {
+        color: purple;
+        font-size: medium;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        padding: 10px;
+        
+    }
+
+    .name {
+        font-size: xx-large;
+        font-style: normal;
+        color: white;
+    }
+
+     .header {
+    display: flex;
+    height: 300px;
+    background-color: black;
+}
+.avatar {
+    flex-wrap: wrap;
+    vertical-align: middle;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: black 2px solid;
+    background-image: url(/Images/D7964D37-28A2-4442-B222-DE073C4368C5.jpeg);
+}
+
+.content {
+    flex-wrap: wrap;
+    height: 400px;
+    background-color: white;
+}
+
+.imagecontent img {
+    width: 50px;
+    height: 50px;
+    padding: 0;
+    background-color:black;
+    margin: 0;
+}
+
+
+.BlogPosts {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: black;
+    display: inline;
+
+}
+
+.blog-items {
+    background-color:  white;
+    border-radius: 10px;
+    
+    
+    
+    
+}
+
+.blog-items img {
+    width: 300px;
+    
+    
+    
+}
+
+
+.footer {
+    background-color: black;
+
+}
+
+@media screen and (min-width: 576px) {
+    body { width: 100%;}
+    
+}
+@media screen and (min-width: 700px) {
+    body { width: 100%;}
+    
+}
+
+@media screen and (min-width: 900px) {
+    body { width: 100%;}
+    
+}
+
+@media screen and (min-width: 1200px) {
+    body { width: 100%;}
+    
+}
